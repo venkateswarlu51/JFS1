@@ -1,0 +1,25 @@
+package com.logicalloops;
+
+import java.util.Scanner;
+
+public class Test11 {
+	static int isReverse(int n) {
+		int r=0;
+		int rev=0;
+		 while(n>0) {
+			 r=n%10;
+			 n=n/10;
+			 rev=(rev*10)+r;
+		 }
+		 System.out.println("reverse number:"+rev);
+		 return rev;
+	}
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter a number");
+		int n=sc.nextInt();
+		isReverse(n);
+		
+	}
+
+}
