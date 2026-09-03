@@ -1,4 +1,4 @@
-package com.arrays;
+package com.consolebasedaplications;
 
 import java.util.Random;
 import java.util.Scanner;
